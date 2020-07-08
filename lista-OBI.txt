@@ -1,0 +1,69 @@
+1) Apenas if e else
+
+a) Ler dois valores numéricos inteiros e apresentar o resultado da diferença do maior valor pelo menor valor.
+b) Ler um valor numérico inteiro positivo ou negativo e apresentar o valor lido como sendo um valor positivo, ou seja, se o valor lido for menor ou igual a zero, ele deve ser multiplicado por -1.
+c) Ler os valores de quatro notas escolares de um aluno. Calcular a média aritmética e apresentar a mensagem “Aprovado” se a média obtida for maior ou igual a 5; caso contrário, apresentar a mensagem “Reprovado”. Informar junto com cada mensagem o valor da média obtida.
+d) Ler os valores de quatro notas de um aluno. Calcular a média aritmética e apresentar a mensagem “Aprovado” se a média obtida for maior ou igual a 7; caso contrário, o programa deve solicitar a nota do exame do aluno e calcular uma nova média aritmética entre a nota de exame e a primeira média aritmética. Se o valor da nova média for maior ou igual a cinco, apresentar a mensagem “Aprovado em exame”; caso contrário, apresentar a mensagem “Reprovado”. Informar junto com cada mensagem o valor da média obtida.
+e) Ler 3 valores numéricos (representados pelas variáveis A, B e C) e fazer o cálculo da equação completa de segundo grau, utilizando a fórmula de Baskara (considerar todas as possíveis condições para delta: delta < 0, delta > 0 e delta = 0). Lembre-se de que é completa a equação de segundo grau que possui simultaneamente as variáveis A, B e C diferentes de zero.
+f) Ler 3 valores e apresentá-los dispostos em ordem crescente.
+g) Ler quatro valores numéricos inteiros e apresentar os valores que são divisíveis por 2 e 3.
+h) Ler quatro valores numéricos inteiros e apresentar os valores que são divisíveis por 2 ou 3.
+i) Ler cinco valores numéricos inteiros, identificar e apresentar o maior e o menor valor informado. Não execute a ordenação dos valores.
+j) Ler um valor numérico inteiro e apresentar uma mensagem informando se o valor é par ou ímpar.
+k) Ler um valor numérico inteiro que esteja na faixa de valores de 1 até 9. O programa deve apresentar a mensagem “O valor está na faixa permitida”, caso o valor informado esteja entre 1 e 9. Se o valor estiver fora da faixa, o programa deve apresentar a mensagem “O valor está fora da faixa permitida”.
+l) Ler o nome e o sexo de uma pessoa e apresentar como saída uma das seguintes mensagem: “Ilmo. Sr.”, caso seja informado o sexo como masculino, ou “Ilma. Sra.”, caso seja informado o sexo como feminino. Apresentar também junto com cada mensagem de saudação o nome previamente informado.
+
+2) Com laços de repetição
+
+a) Apresentar os quadrados dos números inteiros de 15 a 200.
+b) Apresentar os resultados de uma tabuada de um número qualquer, a qual deve ser impressa no seguinte formato (considerando como exemplo o fornecimento do número 2):
+2x1=2 2x2=4 2x3=6 2x4=8 2x5=10 2x6=12 2x7=14 2x8=16 2x9=18 2x10=20
+c) Apresentar o total da soma dos cem primeiros números inteiros (1 + 2 + 3 + 4 + ..... + 98 + 99 + 100), sem utilizar a fórmula pronta da progressão aritmética.
+d) Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500, sem utilizar a fórmula pronta da progressão aritmética.
+e) Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20. Para verificar se o número é ímpar, verificar utilizando a instrução if, perguntando se o número é ímpar; sendo, mostre-o, não sendo, passe para o próximo passo.
+f) Apresentar todos os números divisíveis por 4 que sejam menores que 200. Para verificar se o número é divisível por 4, efetuar dentro da malha a verificação lógica desta condição com a instrução if, perguntando se o número é divisível; sendo, mostre-o, não sendo, passe para o próximo passo. A variável que controlará o contador deve ser iniciada com valor 1.
+g) Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio. Deve ser apresentado, observado a seguinte definição:
+30 = 1
+31 = 3
+32 = 9
+(...)
+315 = 14348907
+h) Elaborar um programa que apresente como resultado o valor de uma potência de uma base qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor do expoente. Considere apenas a entrada de valores inteiros e positivos.
+i) Escreva um programa que apresente a série de Fibonacci até o décimo quinto termo. A série de Fibonacci é formada pela sequência: 1, 1, 2, 3, 5, 8, 13, 21, 34, ... etc. E se caracteriza pela soma de um termo posterior com o seu anterior subsequente.
+j) Elaborar um programa que efetue a leitura de 15 valores numéricos inteiros e no final apresente o somatório da fatorial de cada valor lido.
+k) Elaborar um programa que efetue a leitura de 10 valores numéricos e apresente no final o somatório e a média dos valores lidos.
+l) Elaborar um programa que efetue e a leitura sucessiva de valores numéricos e apresente no final o somatório, a média e o total de valores lidos. O programa deve fazer as leituras dos valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve parar quando o usuário fornecer um valor negativo (menor que zero).
+m) Elaborar um programa que apresente como resultado o valor da fatorial dos valores ímpares situados na faixa numérica de 1 a 10.
+n) Elaborar um programa que apresente os resultados da soma e da média aritmética dos valores pares situados na faixa numérica de 50 a 70.
+o) Elaborar um programa que possibilite calcular a área total de uma residência (sala, cozinha, banheiro, quartos, área de serviço, quintal, garagem, etc). O programa deve solicitar a entrada do nome, a largura e o comprimento de um determinado cômodo. Em seguida, deve apresentar a área do cômodo lido e também uma mensagem solicitando do usuário a confirmação de continuar calculando novos cômodos. Caso o usuário responda “NÃO”, o programa deve apresentar o valor total acumulado da área residencial.
+p) Elaborar um programa que efetue a leitura de valores positivos inteiros até que um valor negativo seja informado. Ao final deverão ser apresentados o maior e o menor valores informados pelo usuário.
+q) Elaborar um programa que apresente o resultado inteiro da divisão de dois números quaisquer. Para a elaboração do programa, não utilizar em hipótese alguma o conceito do operador aritmético de divisão /. A solução deve ser alcançada com a utilização de laços de repetição. Ou seja, o programa deve apresentar como resultado quantas vezes o divisor cabe dentro do dividendo.
+
+3) Com vetores
+
+a) Efetuar a leitura de dez nomes de pessoas, armazená-los em um vetor e exibi-los em seguida.
+b) Ler oito elementos inteiros, armazenar em um vetor A. Construir um vetor B, com os elementos do vetor A multiplicados por 3. O elemento B[0] deve ser igual a A[0] * 3, o elemento B[1] deve ser igual a A[1] * 3, e assim por diante. Exibir o vetor B.
+c) Ler dois vetores A e B com 20 elementos reais. Construir um vetor C, sendo que cada elemento do vetor C é a subtração de um elemento correspondente do vetor A com um elemento correspondente do vetor B, ou seja, a operação de processamento deve estar baseada na operação C[i] = A[i] - B[i]. Ao final, exibir os elementos do vetor C.
+d) Ler 15 elementos inteiros em um vetor A. Construir um vetor B, de mesmo tipo, observando a seguinte lei de formação: “todo elemento do vetor B deve ser o quadrado do elemento do vetor A correspondente”. Exibir os elementos dos vetores A e B.
+e) Ler 15 elementos inteiros em um vetor A. Construir um vetor B, de mesmo tipo, e cada elemento do vetor B deve ser o resultado da fatorial correspondente de cada elemento do vetor A. Exibir os vetores A e B.
+f) Ler 2 vetores A e B com 15 elementos inteiros quaisquer. Construir um vetor C, sendo este o resultado da junção dos vetores A e B. Desta forma, o vetor C deve ter o dobro de elementos em relação aos vetores A e B, ou seja, o vetor C deve possuir 30 elementos. Exibir o vetor C.
+g) Ler 2 vetores A e B, com nomes de pessoas, sendo que o vetor A terá 20 elementos e o vetor B terá 30 elementos. Construir um vetor C, sendo este o resultado da junção dos vetores A e B. Desta forma, o vetor C deve ter a capacidade de armazenar 50 elementos. Exibir o vetor C.
+h) Ler 20 elementos do tipo real em um vetor A e construir um vetor B, com os mesmos elementos do vetor A, porém de forma invertida. Ou seja, o primeiro elemento do vetor A passa a ser o último do vetor B, o segundo elemento do vetor A passa a ser o penúltimo do vetor B e assim por diante. Exibir os elementos dos vetores A e B.
+i) Ler 3 vetores (A, B e C) com cinco elementos cada que sejam do tipo real. Construir um vetor D, sendo este o resultado da junção dos 3 vetores (A, B e C). Desta forma, o vetor D deve ter o triplo de elementos dos vetores A, B e C, ou seja, 15 elementos. Exibir os elementos do vetor D.
+j) Ler um vetor A com 20 elementos inteiros. Construir um vetor B de mesmo tipo do vetor A, sendo cada elemento do vetor B o somatório de 1 até o valor do elemento correspondente armazenado no vetor A. Se o valor do elemento do vetor A[0] for 5, o elemento correspondente do vetor B[0] deve ser 15, pois o somatório do elemento do vetor A é 1+2+3+4+5. Exibir os elementos do vetor B.
+k) Ler um vetor A com 10 elementos inteiros positivos. Construir um vetor B de mesmo tipo, em que cada elemento do vetor B deva ser o valor negativo do elemento correspondente do vetor A. Desta forma, se em A[0] estiver armazenado o elemento 8, deve estar em B[0] o valor -8 e assim por diante. Exibir os elementos do vetor B.
+l) Ler um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo, em que cada elemento deve ser a metade exata de cada um dos elementos existentes do vetor A. Exibir os elementos dos vetores A e B.
+m) Calcular a tabuada de um valor qualquer de 1 até 10 e armazene os resultados em um vetor A. Apresentar os elementos do vetor A.
+n) Ler 20 elementos (valores reais) para temperaturas em graus Celsius e armazenar esses valores em um vetor A. O programa ao final deve apresentar a menor, a maior e a média das temperaturas lidas.
+o) Ler 25 elementos (valores reais) para temperaturas em graus Celsius e armazenar esses valores em um vetor A. Construir um vetor B de mesmo tipo, em que cada elemento do vetor B deva ser a conversão da temperatura em graus Fahrenheit do elemento correspondente do vetor A. Exibir os elementos dos vetores A e B.
+p) Ler 12 elementos inteiros em um vetor A. Construir um vetor B de mesmo tipo, observando a seguinte lei de formação: “todo elemento do vetor A que for ímpar deve ser multiplicado por 2; caso contrário, o elemento do vetor A deve permanecer constante”. Exibir os elementos do vetor B.
+q) Ler 15 elementos reais em um vetor A. Construir um vetor B de mesmo tipo, observando a seguinte lei de formação: “todo elemento do vetor A que possuir índice par deve ter seu elemento dividido por 2; caso contrário, o elemento do vetor A deve ser multiplicado por 1.5”. Exibir os elementos do vetor B.
+r) Ler 6 elementos (valores inteiros) para os vetores A e B. Construir os vetores C e D de mesmo tipo. O vetor C deve ser formado pelos elementos de índice ímpar dos vetores A e B e o vetor D deve ser formado pelos elementos de índice par dos vetores A e B. Exibir os elementos dos vetores C e D.
+s) Ler 2 vetores A e B com seis elementos cada. O vetor A deve aceitar apenas a entrada de valores pares, enquanto o vetor B deve apenas aceitar a entrada de valores ímpares. A entrada dos vetores deve ser validada pelo programa e não pelo usuário. Construir um vetor C que seja o resultado da junção dos vetores A e B, de modo que o vetor C contenha 12 elementos. Exibir os elementos do vetor C.
+t) Ler 2 vetores A e B com 10 elementos cada. O vetor A deve aceitar apenas a entrada de valores divisíveis por 2 e 3, enquanto o vetor B deve aceitar apenas a entrada de valores múltiplos de 5. A entrada dos vetores deve ser validada pelo programa e não pelo usuário. Construir um vetor C que seja o resultado da junção dos vetores A e B, de modo que contenha 20 elementos. Exibir os elementos do vetor C.
+u) Ler 2 vetores A e B com 12 elementos cada. O vetor A deve aceitar apenas a entrada de valores divisíveis por 2 ou 3, enquanto o vetor B deve aceitar apenas a entrada de valores que não sejam múltiplos de 5. A entrada dos vetores deve ser validada pelo programa e não pelo usuário. Construir um vetor C que seja o resultado da junção dos vetores A e B, de forma que contenha 24 elementos. Exibir os elementos do vetor C.
+v) Ler um vetor A com 30 elementos do tipo inteiro. Ao final do programa, apresentar a quantidade de valores pares e ímpares existentes no vetor A.
+w) Ler dois vetores A e B com 10 elementos inteiros cada. Construir um vetor C de mesmo tipo que seja formado pelo quadrado da soma dos elementos correspondentes nos vetores A e B. Exibir os elementos do vetor C.
+x) Ler um vetor A com 6 elementos do tipo real. Construir um vetor B, em que a cada posição de índice ímpar do vetor B deve ser atribuído um elemento de índice par existente no vetor A e a cada posição de índice par do vetor B deve ser atribuído um elemento de índice ímpar existente no vetor A. Exibir os elementos dos dois vetores.
+y) Ler um vetor A com 15 elementos numéricos inteiros. Exibir o total de elementos pares existentes no vetor.
+z) Ler um vetor A com 10 elementos numéricos inteiros. Exibir o total de elementos ímpares existentes no vetor e também o percentual do valor total de números ímpares em relação à quantidade total de elementos armazenados no vetor.
