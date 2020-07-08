@@ -1,2 +1,3 @@
 # general-pratice
-Pratice of simple algorithms
+
+This is a repository for personal pratice of algorithms in a few different languages.
