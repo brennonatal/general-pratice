@@ -8,29 +8,30 @@ otherwise, display the message “Failed”.
 
 int main(void)
 {
-    float t1 = 0, t2 = 0, t3 = 0, t4 = 0, total = 0;
+    float t1 = 0, t2 = 0, t3 = 0, t4 = 0;       // initializing grades
+    float final = 0;                            // initializing final grade
 
     printf("Enter the first grade: ");
-    scanf("%f", &t1);
+    scanf("%f", &t1);                   // reading first grade
 
     printf("Enter the second grade: ");
-    scanf("%f", &t2);
+    scanf("%f", &t2);                   // reading second grade
 
     printf("Enter the third grade: ");
-    scanf("%f", &t3);
+    scanf("%f", &t3);                   // reading third grade
 
     printf("Enter the fourth grade: ");
-    scanf("%f", &t4);
+    scanf("%f", &t4);                   // reading fourth grade
 
-    total = (t1 + t2 + t3 + t4) / 4;
+    final = (t1 + t2 + t3 + t4) / 4;    // calculating final grade
 
-    if (total >= 5)
+    if (final >= 5)             // if the final grade was greater than 5, approved
     {
-        printf("The student was approved with %.2f final grade.", total);
+        printf("The student was approved with %.2f final grade.\n", final);
     }
-    else
+    else                        // if the student failed
     {
-        printf("The student failed with %.2f final grade.", total);
+        printf("The student failed with %.2f final grade.\n", final);
     }
 
     return 0;

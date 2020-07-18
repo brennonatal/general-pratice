@@ -5,24 +5,24 @@
 
 int main(void)
 {
-    int a = 0;
-    int b = 0;
-    int result = 0;
+    int a = 0;          // initializing first integer with zero
+    int b = 0;          // initializing second integer with zero
+    int result = 0;     // initializing variable to store the result
 
     printf("Enter the first value: ");
-    scanf("%d", &a);
+    scanf("%d", &a);                    // reading first value from user input
     printf("Enter the second value: ");
-    scanf("%d", &b);
+    scanf("%d", &b);                    // reading second value from user input
 
-    if (a < b)
+    if (a < b)              // if the first value is smaller than the second
     {
-        result = b - a;
+        result = b - a;     // result stores the value of the second value minus the first
     }
-    else
+    else                    // if the first condition wasn't true
     {
-        result = a - b;
+        result = a - b;     // result stores the value of the first value minus the second
     }
 
-    printf("The difference between %d and %d is: %d", a, b, result);
+    printf("The difference between %d and %d is: %d\n", a, b, result);
     return 0;
 }

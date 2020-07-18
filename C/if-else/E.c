@@ -11,36 +11,36 @@ with variables A, B and C different from zero at the same time.
 
 int main(void)
 {
-    double a = 0, b = 0, c = 0;
-    double delta = 0, x1 = 0, x2 = 0;
+    double a = 0, b = 0, c = 0;         // initializing a, b and c as zero
+    double delta = 0, x1 = 0, x2 = 0;   // initializing our result variables
 
     printf("Enter the value of A: ");
-    scanf("%lf", &a);
+    scanf("%lf", &a);                   // reading value of a from user input
 
     printf("Enter the value of B: ");
-    scanf("%lf", &b);
+    scanf("%lf", &b);                   // reading value of b from user input
 
     printf("Enter the value of C: ");
-    scanf("%lf", &c);
+    scanf("%lf", &c);                   // reading value of c from user input
 
-    delta = b * b - 4 * a * c;
+    delta = b * b - 4 * a * c;          // calculating the value of delta
 
-    if (delta < 0)
+    if (delta < 0)              // if delta is less than zero
     {
-        printf("The equation has no real values");
+        printf("The equation has no real values.\n");
     }
-    else if (delta > 0)
+    else if (delta > 0)         // else if delta is greater than zero
     {
-        x1 = (-b + sqrt(delta)) / (2 * a);
-        x2 = (-b - sqrt(delta)) / (2 * a);
+        x1 = (-b + sqrt(delta)) / (2 * a);      // calculating the value of x1
+        x2 = (-b - sqrt(delta)) / (2 * a);      // calculating the value of x2
 
         printf("Value of x1: %lf\nValue of x2: %lf \n", x1, x2);
     }
-    else
+    else                        // if delta is neigher greater nor less than zero: (zero)
     {
-        x1 = (-b / (2 * a));
+        x1 = (-b / (2 * a));    // calculate the value of it's single root
 
-        printf("Since the value of delta is zero, the equation has a single one root: %lf", x1);
+        printf("Since the value of delta is zero, the equation has a single one root: %lf\n", x1);
     }
 
     return 0;
