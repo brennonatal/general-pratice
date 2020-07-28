@@ -16,12 +16,13 @@ int main(void)
     scanf("%d", &num);
 
     if (num > 0 && num < 10)
+    // if the number is between 1 and 9 (inclusive)
     {
-        printf("The value is in the allowed range.");
+        printf("The value is in the allowed range.\n");
     }
     else
     {
-        printf("The value is outside the permitted range.");
+        printf("The value is outside the permitted range.\n");
     }
 
     return 0;
